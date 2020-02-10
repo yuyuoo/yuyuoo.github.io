@@ -8,12 +8,12 @@
 <link rel="canonical" href="https://yuyuoo.github.io/2020/02/10/ctf-web-WriteUp-2-Asuri-Bugku/">
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
 
-<meta name="description" content="成绩单 所谓 SQL 注入，就是通过把 SQL 命令插入到 Web 表单提交或输入域名或页面请求的查询字符串，最终达到欺骗服务器执行恶意的 SQL 命令。    ——  [百度百科]  网页链接存在参数传递，后台并没有对用户的输入进行过滤，导致用户的输入直接被 SQL 解释器执行。SQL 注入的产生条件： 有参数传递 参数值带入数据库查询并且执行 基础知识：https:&#x2F;&#x2F;blog.csdn.ne">
+<meta name="description" content="成绩单 所谓 SQL 注入，就是通过把 SQL 命令插入到 Web 表单提交或输入域名或页面请求的查询字符串，最终达到欺骗服务器执行恶意的 SQL 命令。    —— [百度百科]  网页链接存在参数传递，后台并没有对用户的输入进行过滤，导致用户的输入直接被 SQL 解释器执行。SQL 注入的产生条件： 有参数传递参数值带入数据库查询并且执行基础知识：https:&#x2F;&#x2F;blog.csdn.net&#x2F;s">
 <meta property="og:type" content="website">
 <meta property="og:title" content="ctf-web-WriteUp-2-Asuri-Bugku">
 <meta property="og:url" content="https://yuyuoo.github.io/2020/02/10/ctf-web-WriteUp-2-Asuri-Bugku/index.html">
 <meta property="og:site_name" content="YuYuoo&#39;s blog">
-<meta property="og:description" content="成绩单 所谓 SQL 注入，就是通过把 SQL 命令插入到 Web 表单提交或输入域名或页面请求的查询字符串，最终达到欺骗服务器执行恶意的 SQL 命令。    ——  [百度百科]  网页链接存在参数传递，后台并没有对用户的输入进行过滤，导致用户的输入直接被 SQL 解释器执行。SQL 注入的产生条件： 有参数传递 参数值带入数据库查询并且执行 基础知识：https:&#x2F;&#x2F;blog.csdn.ne">
+<meta property="og:description" content="成绩单 所谓 SQL 注入，就是通过把 SQL 命令插入到 Web 表单提交或输入域名或页面请求的查询字符串，最终达到欺骗服务器执行恶意的 SQL 命令。    —— [百度百科]  网页链接存在参数传递，后台并没有对用户的输入进行过滤，导致用户的输入直接被 SQL 解释器执行。SQL 注入的产生条件： 有参数传递参数值带入数据库查询并且执行基础知识：https:&#x2F;&#x2F;blog.csdn.net&#x2F;s">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://s2.ax1x.com/2020/01/19/1PCcTK.jpg">
 <meta property="article:published_time" content="2020-02-10T06:39:32.000Z">
@@ -30,10 +30,10 @@
 <link href="//fonts.googleapis.com/css?family=Baloo+Bhaijaan|Inconsolata|Josefin+Sans|Montserrat" rel="stylesheet">
 <link href="/styles.e4da61f53c7bc99becf4.css" rel="stylesheet">
 
-<link rel="stylesheet" href="/theme.3c8ac45e63a75f006283.css">
+<link rel="stylesheet" href="/theme.b6ef5deda22bfd0d90c7.css">
 
 
-<script src="/config.55690de21e91652d9901.js"></script>
+<script src="/config.6188e75ae8342f5ddab1.js"></script>
 
 
 <script async src="//www.googletagmanager.com/gtag/js?id=UA-00000000-0"></script>
@@ -42,6 +42,8 @@
 <meta name="generator" content="Hexo 4.2.0"></head>
 <body lang="en">
 <is-a></is-a>
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
 <script src="/runtime.ee6f73bc31187f12810a.js"></script>
 <script src="/polyfills.14df1390f4da8e838f05.js"></script>
 <script src="/main.d458ff11c3565b982fe7.js"></script>
