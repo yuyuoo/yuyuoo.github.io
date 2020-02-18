@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://yuyuoo.github.io/2020/02/17/pytorch%E7%AC%94%E8%AE%B0%E5%85%AD%EF%BC%9A%E5%BE%AA%E7%8E%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80/</loc>
+    <lastmod>2020-02-18</lastmod>
+  </url>  <url>
     <loc>https://yuyuoo.github.io/2020/02/16/pytorch%E7%AC%94%E8%AE%B0%E4%BA%94%EF%BC%9A%E6%96%87%E6%9C%AC%E9%A2%84%E5%A4%84%E7%90%86/</loc>
     <lastmod>2020-02-16</lastmod>
   </url>  <url>
