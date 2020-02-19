@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://yuyuoo.github.io/2020/02/10/csp%E5%88%B7%E9%A2%98%E7%AC%94%E8%AE%B0%EF%BC%88%E7%AC%AC3-4%E9%A2%98%EF%BC%89/</loc>
+    <lastmod>2020-02-19</lastmod>
+  </url>  <url>
     <loc>https://yuyuoo.github.io/2020/02/17/pytorch%E7%AC%94%E8%AE%B0%E5%85%AD%EF%BC%9A%E5%BE%AA%E7%8E%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80/</loc>
     <lastmod>2020-02-18</lastmod>
   </url>  <url>
@@ -20,9 +23,6 @@
     <lastmod>2020-02-13</lastmod>
   </url>  <url>
     <loc>https://yuyuoo.github.io/2020/02/10/csp%E5%88%B7%E9%A2%98%E7%AC%94%E8%AE%B0%EF%BC%88%E7%AC%AC1-2%E9%A2%98%EF%BC%89/</loc>
-    <lastmod>2020-02-11</lastmod>
-  </url>  <url>
-    <loc>https://yuyuoo.github.io/2020/02/10/csp%E5%88%B7%E9%A2%98%E7%AC%94%E8%AE%B0%EF%BC%88%E7%AC%AC3-4%E9%A2%98%EF%BC%89/</loc>
     <lastmod>2020-02-11</lastmod>
   </url>  <url>
     <loc>https://yuyuoo.github.io/2020/02/10/ctf-web-WriteUp-2-Asuri-Bugku/</loc>
